@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind component;
+
+.heroBackground{
+    background-image: url(header-background.png);
+}
+.button{
+    @apply rounded-[4px] py-2 px-3 text-white m-[10px]
+}
+.navbar{
+ @apply h-4 text-white font-normal text-xs hover:text-[#14B9D5] transition hidden md:inline-block
+}
+@tailwind utilities;
